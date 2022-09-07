@@ -13,8 +13,8 @@ int main() {
 
     printf("Enter a value");
 
-    scanf("%d", &i);
+    scanf("%d %s", &i, str);
 
-    printf("\nYou entered : %d\n", i);
+    printf("\nYou entered : %d::::::%s\n", i, str);
     return 0;
 }
