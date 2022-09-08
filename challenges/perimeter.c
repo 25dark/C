@@ -6,19 +6,19 @@ Date: 08|09|22
 #include <stdio.h>
 int main() {
     //declare variables in double
-    double height = 6.23;
-    double width = 13.42;
+    double height = 15.3;
+    double width = 32.3;
 
     //calculate for the perimeter
     //perimeter is height + width * 2
-    double perimeter = height + width * 2;
+    double perimeter = (height + width) * 2;
     //calculate for the area
     //area is width * height
     double area = height * width;
 
     //print the result
-    printf("The Perimeter is: %e", perimeter);
-    printf("\nThe Area is: %e", area);
+    printf("The Perimeter is: %f", perimeter);
+    printf("\nThe Area is: %f", area);
 
     return 0;
 }
