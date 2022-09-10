@@ -6,7 +6,7 @@
 #include <stdio.h>>
 int main()
 {
-    //declare your enum variables
+    //declare your enum list in the question
     enum Company {GOOGLE, FACEBOOK, XEROX, YAHOO, EBAY, MICROSOFT};
     //declare the variables stated in the question to show values
     enum Company xerox = XEROX;
